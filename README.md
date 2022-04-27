@@ -1,1 +1,1 @@
-This repository is created for website devoted to our company (Legeartis Games) and our products.
+This repository is created for website devoted to our game studio(Legeartis Games) and our products.
