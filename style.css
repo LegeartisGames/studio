@@ -1,4 +1,4 @@
-body {
+﻿body {
   margin: 0;
   min-width: 960px;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-  max-width: 928px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 16px;
 }
@@ -22,8 +22,14 @@ body {
   padding: 32px 0 32px;
 }
 
+.small-header {
+  margin: 0 0 80px;
+  padding: 32px 0 32px;
+} 
+
 .page-header .container,
-.page-footer .container {
+.page-footer .container,
+.small-header .container {
   max-width: 1408px;
   text-align: right;
 }
@@ -36,6 +42,13 @@ body {
   background-position: left;
 }
 
+
+.cute-ref {
+  font-size: 23px;
+  color: #fff;
+  text-decoration: none;
+  /*font-family: "Times New Roman", sans-serif;*/
+}
 .header-email {
   padding-left: 30px;
   background-image: url("img/icon-email.svg");
@@ -154,6 +167,12 @@ body {
   margin: 0 0 24px;
 }
 
+.white-ref {
+  color: #fff;
+
+}
+
+
 .button {
   padding: 6px 20px;
   display: inline-block;
@@ -186,13 +205,5 @@ body {
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone.svg");
-}
-
-
-
-
-.epidemy-ref	{
-  color: #fff;
-	
 }
 	
