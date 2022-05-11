@@ -3,6 +3,7 @@ epButton = document.querySelector('.epidemy-form-button');
 input = document.getElementById('epidemy-input');
 formField = document.querySelector('#form-field');
 epButton.onclick = function(){
+  if (input.value!='') {
   console.log(input.value);
   input.value = '';
   console.log('Your review is registered!');
@@ -13,5 +14,5 @@ epButton.onclick = function(){
   formField.append(infoSent);
   //epButton.remove();
   //input.remove();
-  
+  }
 }
