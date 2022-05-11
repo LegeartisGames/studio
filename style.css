@@ -11,6 +11,10 @@
   background-position: top center;
 }
 
+.blurred-back {	
+backdrop-filter: blur(4px);
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -42,13 +46,43 @@
   background-position: left;
 }
 
-
 .cute-ref {
   font-size: 23px;
   color: #fff;
   text-decoration: none;
   /*font-family: "Times New Roman", sans-serif;*/
 }
+
+blockquote {
+  margin-top: 40px;
+  padding-left: 14px;
+  border-left: 5px ridge rgba(245,84,66, .8);
+
+  color: #f55442;
+  font-size: 18px;
+}
+
+.long-list {
+  font-size: 20px;
+  line-height: 1.7;
+  background-color: rgba(46, 42, 42, .2);
+  border-radius: 5%;
+  
+	
+}
+.long-list li {
+  margin: 0.7em;
+	
+}
+
+.strange-style {
+  font-family: "Verdana", serif;
+  font-style: slim;
+}
+
+
+
+
 .header-email {
   padding-left: 30px;
   background-image: url("img/icon-email.svg");
